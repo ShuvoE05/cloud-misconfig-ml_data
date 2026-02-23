@@ -1,0 +1,501 @@
+company,type_of_server,nature_of_breach,vertical,raw_record_number,severity
+Alinta Energy,unknown,didn't have any proper systems or security to protect any of the sensitive data it stored,energy,1.1 million customers,CRITICAL
+Antheus Tecnologia,unkown,"unsecured database, no password protection in the cloud",technology,81.5 million records,CRITICAL
+Clearview,unkown,not specified,AI,unknown,MEDIUM
+Denmark,unkown,software bug in URL,government,1.26 million people,CRITICAL
+Entercom Radio,unknown,someone was able to access database backup files stored third-party cloud hosting services,media,unknown,MEDIUM
+Estee Lauder,unsecured server,no password protection or any kind of security protecting the data base,beauty,440 million records,CRITICAL
+Keepnet labs,Elasticsearch,publicly accessible database,security,5 billion records,CRITICAL
+LabCorp,unknown,"back-end of the website was not password protected, people could get to it through a google url",healthcare,"10,000 records",HIGH
+MCA Wizards,AWS,unsecured s3 bucket,finance,425GB,MEDIUM
+Microsoft,Elasticsearch,unsecured server,technology,"250,000,000",HIGH
+Slickwraps,unknown,"a white hacker found a vulnerability in their secuirty systems and tried to alert them, they ignored it and then another hacker found a post from the original hacker talking about it and was able to get in to access personal information",technology,"370,000 customers",HIGH
+tetrad,AWS,"exposed cloud container, misconfigurations in security settings,",business,747 GB,MEDIUM
+TH Suite,AWS,unsecured s3 bucket,medical marijuana,"85,000 records",HIGH
+Unknown,Google,researches found an exposed database of an unknown company,unkown,200 million records,CRITICAL
+Virgin Media,unkown,unsecured database,communications,900k customers,MEDIUM
+Whisper,unsecured server,open database to the public,social media,900 million records,CRITICAL
+Alibaba,server with Chinese IP address,publicly accessible database,e-commerce,56 million US residents,CRITICAL
+Peekaboo,Elasticsearch,"unsecured database, ""I've never seen a server so blatantly open""",app,70 million log files,CRITICAL
+NextMotion,AWS,unsecure S3 bucket,healthcare,"900,000 files",HIGH
+Photo Squared,AWS,"misconfigured S3 database, which was left without any password protection",app,"100,000 users",HIGH
+Walgreens,unknown,error in the Walgreens personal secure messaging features,pharmacy,unknown,MEDIUM
+Fresh Film Productions,AWS,unsecured s3 bucket,entertainment,1500 files,MEDIUM
+Unknown,AWS,unsecured s3 bucket,unkown,thousands,HIGH
+Front Rush,AWS,exposed server,sports,"700,000 files",HIGH
+City Brain,Elasticsearch,"left open without any authentication, leaving all the data from its processing open for anybody to view.",technology,56GB,MEDIUM
+LimeLeads,Elasticsearch,"one of the company's servers had been indexed by search engine Shodan as an open system since at least July 27, 2019",business,49 million,CRITICAL
+PussyCash,AWS,open folder,adult entertainment,4000 models,HIGH
+Crew and Concierge Limited,AWS,It was left exposed on a misconfigured unsecured Amazon Web Services (AWS) S3 bucket and appears to have been online and available for anyone to access without a password since February 2019.,recruiting,"17,379 people",MEDIUM
+Rotherwood Healthcare,AWS,"Amazon Web Services S3 bucket accessible to everyone on the internet, the British company’s website privacy policy consisted solely of lorem ipsum placeholder text.",healthcare,"10,000 records",HIGH
+Pabbly,unknown,open and publicly accessible database that contained millions of records and a massive amount of email addresses,business,51.2 million records,CRITICAL
+Cameo,aws,"misconfigured app, anyone with cameo credentials could get into S3 buckets",entertainment,,MEDIUM
+Rallyhood,aws,left one of its cloud storage buckets containing user data open and exposed,social network,4.1 terabytes of uploaded files,MEDIUM
+Rogers,unknown,"""Rogers became aware that one of our external service providers had inadvertently made information available online that provided access to a database managed by that service provider""",retail,,MEDIUM
+EasyJet,unknown,unknown,transportation,9 million,CRITICAL
+BlueKai,unsecured server,"misconfigured server between parent company, accessbile without password",technology,"""billions of records""",CRITICAL
+AIS,elasticsearch,unsecured server with no protection,telecommunications,8.3 billion documents,CRITICAL
+CAM4,elasticsearch,unsecured server with no protection,adult entertainment,10.8 billion,CRITICAL
+LiveJournal,unknown,"unknown, database just floating around",social networking,26 million credentials,CRITICAL
+Wishbone,unknown,"unknown, database hacked",social networking,40 million records,CRITICAL
+Bigfooty.com,elasticsearch,misconfigured database,social networking,132 GB,MEDIUM
+OneClass,elasticsearch,"unsecured database, accessible to the public",education,8.9 million records,CRITICAL
+ETHERAZ,unknown,"lack of protection, anyone could request a QR code from the server",technology,over 1 million,CRITICAL
+Mobi Friends,elasticsearch,"easily decrypted passwords, unsecured elasticsearch database",social networking,3.7 million,CRITICAL
+Babylon,unknown,software error that allowed users to access other users's records,healthcare,"""handful""",MEDIUM
+Joomla,AWS,unencrypted full site backups were stored in an AWS S3 bucket,technology,"2,700 users",MEDIUM
+Key Ring,AWS,"Instead of setting the S3 buckets storing user files to “private,” Key Ring developers misconfigured the buckets",app,14 million users,CRITICAL
+Facebook,elasticsearch,"unsecured database, server belongs to whoever stole the data in the first place?",social networking,267 million profiles,CRITICAL
+Paay,unknown,"there was no password on the server, anyone could access the data inside",finance,2.5 million records,CRITICAL
+US Marshal Service,unknown,hacker breached DSNet by exploiting a vulnerability and then extracted information,government,"387,000 inmates",HIGH
+Twitter,unknown,"business users’ billing information was inadvertently stored in the browser’s cache, and it was “possible” that others, such as those who share computers, could have accessed it.",social networking,unknown,MEDIUM
+C-Planet IT Solutions,unknown,unprotected database,technology,"337,000 voters",HIGH
+Maropost,Google Cloud,unprotected database,marketing,20 billion users,CRITICAL
+Canada,unknown,"""administrative error""",government,247 passengers,MEDIUM
+Advanced Computer Software Group Limited,unknown,unsecured online database,technology,"10,000 legal docs",HIGH
+Jio,unknown,security lapse exposed one of the symptom checker’s core databases to the internet without a password,telecommunications,,MEDIUM
+Digital Ocean,unknown,an internal Digital Ocean document that was mistakenly left accessible online,technology,,MEDIUM
+Illinois Department of Employment,unknown,"“made some private information publicly available for a short time, and worked to immediately remedy the situation,”",government,,MEDIUM
+MMPSY,elasticsearch,misconfigured server,government,,MEDIUM
+BHIM,AWS,"409GB database was stored in a misconfigured AWS S3 bucket, making all data publicly accessible",app,7 million,CRITICAL
+Dating Apps,AWS,misconfigured AWS S3 bucket containing 845GB of private dating app records,social networking,845GB,MEDIUM
+Wattpad,unknown,"hacker got in and stole the database, then put it up for sale on dark web online forum",publishing,270 million records,CRITICAL
+CouchSurfing,unknown,theory is that the data was from a misplaced backup file in the cloud environment,lodging,17 million records,CRITICAL
+Mycastingfile,elasticsearch,open server with no protection,entertainment,"260,000 individuals",HIGH
+V Shred,AWS,unsecured AWS S3 bucket,fitness,"99,000 individuals",HIGH
+MongoDB,unknown,"unsecured database, hacker scans for misconfigured db's and then wipes them clean with a ransom note",tech,23k databases,MEDIUM
+Intel,Akami CDN,unsecured server,tech,20GB database,MEDIUM
+View Media,AWS,unsecured S3 bucket,media,39 million records,CRITICAL
+Mailfire,elasticsearch,hacker gained access through unsecured server,marketing,320 million records,CRITICAL
+Aspire News,unknown,unprotected cloud server left open for anyone,app,unknown,MEDIUM
+University of Tasmania,unknown,security settings on shared files were misconfigured which made the information publicly visible,education,"20,000 students affected",HIGH
+Transport for NWS,AWS,AWS S3 Bucket left open,transportation,"54,000 records",HIGH
+VPN apps,unknown,"unsecured server, completely open and accesible to anyone",app,1 billion records,CRITICAL
+Social Data,unknown,"uncovered three identical copies of the exposed data on August 1 that were hosted at three separate IPv6 addresses,",marketing,"235 million tik tok, facebook, and youtube users",CRITICAL
+CluBillion,elasticsearch,"gaming related data hosted on Amazon Web Services was left exposed from the past few weeks to hackers because of a technical glitch. All the log action like when an individual player entered the game, won it, lose updated the account, created account was available to be accessed by anyone on the cloud platform.",entertainment,200 million reccords daily,CRITICAL
+ancestry.com,elasticsearch,exposed MacKiev server that leaked 25GB of Ancestry user data and MacKiev Software user subscription.,genealogy,"60,000 customers",HIGH
+promo.com,unknown,data security vulnerability on a 3rd party service had caused a breach,media,22 million customers,CRITICAL
+avon,azure elasticsearch,Elasticsearch database on an Azure server publicly exposed with no password protection or encryption.,beauty,19 million customers,CRITICAL
+telmate,unknown,unsecured database,communications,1 million inmates,CRITICAL
+Razer,elasticsearch,"misconfigured Elasticsearch cloud cluster that exposed a segment of Razer’s infrastructure to the public internet, for anyone to see",entertainment,"100,000 gamers",HIGH
+town sports,unknown,database without a password or any other authentication required to access it,health,"600,000 customers",HIGH
+Windeln.de,elasticsearch,customers’ personal data was publicly exposed on an unsecured server for nearly two weeks,retail,unknown,MEDIUM
+Wales Public Health,unknown,data was accidentally uploaded to a public server giving anyolne access,heathcare,"18,000 residents",HIGH
+Digital Point,elasticsearch,"database set to open and be visible in any browser (publicly accessible) and could have been edited, downloaded, or even deleted data without administrative credentials",website,"62,858,144 records",MEDIUM
+South East Coast Ambulance Service,unknown,unsecure database left publicly accessible,healthcare,,MEDIUM
+LogBox,unknown,exposed database,app,,MEDIUM
+Providence Health Plan,unknown,coding error,healthcare,"49,511 members",MEDIUM
+LPM Property Management,aws,unsecured database,property,"31,000",HIGH
+Argentina Government,elasticsearch,database exposed on the web without a password or any other authentication required to access it,government,"115,000 people",HIGH
+BioTel Heart,aws,misconfigured Amazon s3 storage bucket,healthcare,"60,000 records",HIGH
+"Utah-based gun exchange, hunting, and kratom sites",aws,hacker stole the database,weapon,"281,999 records",MEDIUM
+RailYatri,elasticsearch,publicly exposed without password protection or encryption for several days,travel,"700,000",HIGH
+Broadvoice,Elasticsearch,unprotected server that required no authorization to access,communications,350 million records,CRITICAL
+Martin County,S3 Bucket,pubicly accessable storage bucket was found by a researcher,government,"1,254 accounts",MEDIUM
+Prestige Platform,S3 Bucket,misconfigured AWS S3 bucket,hospitality,10 million files,CRITICAL
+Vertafore,unknown,unsecured external storage system,insurance,27.7 million records,CRITICAL
+Spotify,unknown,"unknown but ""software vulnerability, security bug""",music,unknown,MEDIUM
+Pfizer,Google,misconfigured Google Cloud storage bucket,pharmaceutical,unknown,MEDIUM
+mashable.com,unknown,hackers leaked database and claimed it had no password,media,5.22GB,MEDIUM
+pray.com,AWS,"vpnMentor analysts found several open, publicly accessible cloud databases (Amazon Web Services S3 buckets)",app,10 million users,CRITICAL
+NetGallery,unknown,unauthorized and unlawful access to a backup file of the NetGalley database,media,unknown,MEDIUM
+hospitals and medical centers,NAS,Millions of images were unencrypted and could be accessed without password protection,healthcare,more than 45 million,CRITICAL
+Headlam Group,unknown,unauthorized user gained access to data,labor,unknown,MEDIUM
+Chespeake Reginoal Healthcare,unknown,The incident occurred due to a security incident affecting donor and fundraising software vendor Blackbaud.,healthcare,"23,000 individuals",HIGH
+Made in Oregon,unknown,an unauthorized third party accessed information in an attack dating from February to August this year,retail,unknown,MEDIUM
+Magnolia Pediatric,unknown,any individual who had the ability to encrypt the MBR had access to the entire server,healthcare,,MEDIUM
+0x00sec,unknown,"did not separate buckets for uploads and backups. Instead, we used ACLs to allow public access to the entire bucket to store user uploads with the exception of a subfolder that blocks public access which we used for backups.",hacking,,MEDIUM
+Dr Lal PathLabs,AWS,unsecured storage bucket,healthcare,2 million records,CRITICAL
+HomeWAV,unknown,left a dashboard for one of its databases exposed to the internet without a password,communications,,MEDIUM
+TRUE,unknown,left a server exposed,app,"500,000",HIGH
+Sophos,unknown,misconfigured database,technology,,MEDIUM
+GrowDiaries,Elasticsearch,the company left two Kibana apps exposed on the internet without administrative passwords,marijuana,3.4 million,CRITICAL
+Deloitte,unknown,"YAML configuration file publicly accessible. And within the file, in cleartext, is the username and password for the site's mySQL database.",business,,MEDIUM
+Animal Jam,AWS,threat actors obtained WildWork's AWS key after compromising the company's Slack server,game,46 million,CRITICAL
+COVID-KAYA,unknown,web and Android apps allowed for unauthorized users to access private data about the platform’s users and potentially patient data,app,,MEDIUM
+Cloud Custers Inc,cloud custers?,non-password protected database,technology,63 million,CRITICAL
+TronicaXchange,AWS,wide open S3 bucket,retail,2.6 million,CRITICAL
+Albert Einstein Hospital,unknown,"hospital employee uploaded a spreadsheet with usernames, passwords, and access keys to sensitive government systems",healthcare,16 million,CRITICAL
+Probase,Azure,"No security controls were in place on the Azure blob, meaning it was entirely public-facing, and anyone with the address of the files stored in it could view them without authentication – so they didn't need to log in or pass any kind of security check.",app,"500,000",HIGH
+NOW: Pensions,unknown,"a service provider ""unintentionally"" posted user data to an unnamed ""public software forum""",finance,,MEDIUM
+A Cayman Island Investment Fund,Azure,ailing to properly configure a secure Microsoft Azure blob,finance,,MEDIUM
+Apodis Pharma,Elasticsearch,misconfigured database,pharmaceutical,"67,845,860",MEDIUM
+21 Buttolns,AWS,AWS S3 bucket wide open with no encryption or password protection,social networking,50 million,CRITICAL
+Cloud_Entity_0,AWS,AWS EKS with misconfigured logging policy exposing sensitive data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_1,Alibaba Cloud,Alibaba Cloud ECS with misconfigured monitoring exposing instance metrics.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_2,Oracle Cloud,Oracle Cloud Database with no audit logging.,Monitoring,1.2 million records,CRITICAL
+Cloud_Entity_3,Oracle Cloud,Oracle Cloud Functions with misconfigured environment variables exposing secrets.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_4,GCP,GCP Cloud DNS with open zone access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_5,GCP,GCP Cloud Functions with misconfigured event trigger allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_6,Alibaba Cloud,Alibaba Cloud ECS with misconfigured user data script enabling remote code execution.,Code Injection,"25,000 records",HIGH
+Cloud_Entity_7,GCP,GCP Cloud SQL with misconfigured database flag allowing privilege escalation.,Privilege Escalation,"500,000 records",HIGH
+Cloud_Entity_8,Alibaba Cloud,Alibaba Cloud RDS with misconfigured parameter group allowing insecure connections.,Network Security,"500,000 records",HIGH
+Cloud_Entity_9,Azure,Azure Databricks with misconfigured notebook allowing code injection.,Code Injection,10.5 million records,CRITICAL
+Cloud_Entity_10,GCP,GCP Cloud Functions with misconfigured event trigger allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_11,IBM Cloud,IBM Cloud Databases with weak encryption.,Encryption,"500,000 records",HIGH
+Cloud_Entity_12,AWS,AWS Redshift with public access.,Network Security,"500,000 records",HIGH
+Cloud_Entity_13,Azure,Azure Stream Analytics with misconfigured job output allowing data exfiltration.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_14,IBM Cloud,IBM Cloud Functions with no access control.,Access Control,"25,000 records",HIGH
+Cloud_Entity_15,AWS,AWS CloudTrail with no log file validation.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_16,Alibaba Cloud,Alibaba Cloud ECS with misconfigured disk encryption exposing data.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_17,Alibaba Cloud,Alibaba Cloud ECS with misconfigured disk snapshot allowing data exposure.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_18,GCP,GCP Cloud Monitoring with misconfigured dashboard exposing sensitive metrics.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_19,Alibaba Cloud,Alibaba Cloud ECS with misconfigured security group allowing SSH brute force.,Authentication,"500,000 records",HIGH
+Cloud_Entity_20,GCP,GCP Cloud DNS with misconfigured zone transfer allowing DNS data exposure.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_21,Oracle Cloud,Oracle Cloud VCN with misconfigured NAT gateway allowing traffic interception.,Network Security,Unknown,MEDIUM
+Cloud_Entity_22,IBM Cloud,IBM Cloud Kubernetes with misconfigured resource limits allowing resource exhaustion.,Denial of Service,"500,000 records",HIGH
+Cloud_Entity_23,GCP,GCP BigQuery with misconfigured table ACLs allowing data leakage.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_24,Alibaba Cloud,Alibaba Cloud OSS with no lifecycle policy.,Data Protection,2 million records,CRITICAL
+Cloud_Entity_25,Alibaba Cloud,Alibaba Cloud OSS with no data encryption.,Encryption,Unknown,MEDIUM
+Cloud_Entity_26,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket notification exposing data.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_27,IBM Cloud,IBM Cloud VPC with misconfigured endpoint gateway allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_28,IBM Cloud,IBM Cloud Databases with misconfigured backup policy allowing data loss.,Data Protection,2 million records,CRITICAL
+Cloud_Entity_29,GCP,GCP Cloud Storage with misconfigured bucket ACL allowing data tampering.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_30,AWS,AWS Lambda with misconfigured VPC endpoint allowing traffic interception.,Network Security,Unknown,MEDIUM
+Cloud_Entity_31,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured backend set allowing unauthorized access.,Access Control,2 million records,CRITICAL
+Cloud_Entity_32,GCP,GCP Cloud Run with misconfigured environment variable exposing secrets.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_33,Oracle Cloud,Oracle Cloud Identity with misconfigured MFA policy allowing weak authentication.,Authentication,"500,000 records",HIGH
+Cloud_Entity_34,GCP,GCP Cloud VPN with misconfigured routing allowing traffic interception.,Network Security,10.5 million records,CRITICAL
+Cloud_Entity_35,AWS,AWS API Gateway with misconfigured logging exposing sensitive data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_36,Oracle Cloud,Oracle Cloud Identity with misconfigured MFA policy allowing bypass.,Authentication,Unknown,MEDIUM
+Cloud_Entity_37,GCP,GCP Cloud Functions with outdated runtime.,Patch Management,"500,000 records",HIGH
+Cloud_Entity_38,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured backend set allowing DoS attacks.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_39,IBM Cloud,IBM Cloud Databases with misconfigured connection string exposing credentials.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_40,Alibaba Cloud,Alibaba Cloud ECS with misconfigured instance metadata exposing sensitive data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_41,Oracle Cloud,Oracle Cloud Load Balancer with no WAF.,Security Policy,10.5 million records,CRITICAL
+Cloud_Entity_42,GCP,GCP Cloud Functions with misconfigured IAM role allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_43,Azure,Azure Data Lake with misconfigured access control allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_44,GCP,GCP Cloud Armor with misconfigured SQL injection protection allowing attacks.,Injection,2 million records,CRITICAL
+Cloud_Entity_45,AWS,AWS SQS with misconfigured dead-letter queue exposing sensitive messages.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_46,AWS,AWS Redshift with misconfigured snapshot sharing allowing data leakage.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_47,Azure,Azure Virtual Machine with exposed management ports.,Network Security,Unknown,MEDIUM
+Cloud_Entity_48,Oracle Cloud,Oracle Cloud Load Balancer with no SSL.,Encryption,2 million records,CRITICAL
+Cloud_Entity_49,Azure,Azure Redis Cache with no firewall rules.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_50,Azure,Azure Machine Learning with misconfigured pipeline allowing code injection.,Code Injection,Unknown,MEDIUM
+Cloud_Entity_51,Alibaba Cloud,Alibaba Cloud ECS with misconfigured instance type causing DoS attacks.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_52,Azure,Azure Cognitive Services with misconfigured API key rotation exposing keys.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_53,Alibaba Cloud,Alibaba Cloud VPC with no flow log.,Monitoring,"500,000 records",HIGH
+Cloud_Entity_54,Oracle Cloud,Oracle Cloud Database with misconfigured TDE exposing data.,Encryption,"25,000 records",HIGH
+Cloud_Entity_55,GCP,GCP Cloud Build with misconfigured build trigger allowing unauthorized builds.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_56,IBM Cloud,IBM Cloud Databases with misconfigured audit logging exposing sensitive data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_57,AWS,AWS SNS with misconfigured topic subscription allowing data exfiltration.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_58,Azure,Azure Function with misconfigured trigger binding allowing code injection.,Code Injection,2 million records,CRITICAL
+Cloud_Entity_59,Alibaba Cloud,Alibaba Cloud OSS with misconfigured versioning allowing data tampering.,Data Protection,2 million records,CRITICAL
+Cloud_Entity_60,Oracle Cloud,Oracle Cloud VCN with misconfigured route table enabling lateral movement.,Network Security,Unknown,MEDIUM
+Cloud_Entity_61,Oracle Cloud,Oracle Cloud VCN with no network security group.,Network Security,10.5 million records,CRITICAL
+Cloud_Entity_62,IBM Cloud,IBM Cloud Functions with no memory limits.,Resource Control,1.2 million records,CRITICAL
+Cloud_Entity_63,AWS,AWS ElastiCache with no AUTH token.,Authentication,1.2 million records,CRITICAL
+Cloud_Entity_64,IBM Cloud,IBM Cloud VPC with no endpoint gateway restrictions.,Network Security,Unknown,MEDIUM
+Cloud_Entity_65,IBM Cloud,IBM Cloud Functions with misconfigured environment variable exposing secrets.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_66,Azure,Azure SQL Database with no encryption at rest.,Encryption,2 million records,CRITICAL
+Cloud_Entity_67,GCP,GCP Cloud Monitoring with misconfigured notification channel allowing data leakage.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_68,Azure,Azure Stream Analytics with misconfigured job allowing code injection.,Code Injection,"25,000 records",HIGH
+Cloud_Entity_69,AWS,AWS Lambda with misconfigured environment variable allowing code injection.,Code Injection,2 million records,CRITICAL
+Cloud_Entity_70,Azure,Azure API Management with misconfigured backend allowing request forgery.,Server-Side Request Forgery,2 million records,CRITICAL
+Cloud_Entity_71,Azure,Azure Event Hub with no partition key encryption.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_72,Azure,Azure Kubernetes with misconfigured pod security policy allowing privilege escalation.,Privilege Escalation,"500,000 records",HIGH
+Cloud_Entity_73,IBM Cloud,IBM Cloud IAM with overly broad service access.,IAM Misconfiguration,Unknown,MEDIUM
+Cloud_Entity_74,IBM Cloud,IBM Cloud Activity Tracker disabled.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_75,AWS,AWS SNS with misconfigured topic policy allowing unauthorized subscriptions.,Access Control,2 million records,CRITICAL
+Cloud_Entity_76,GCP,GCP Cloud Armor with no rate limiting.,API Security,1.2 million records,CRITICAL
+Cloud_Entity_77,AWS,AWS KMS key with public access policy.,Access Control,Unknown,MEDIUM
+Cloud_Entity_78,AWS,AWS Redshift with misconfigured snapshot policy exposing data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_79,GCP,GCP Cloud Armor with misconfigured rate limiting allowing DoS attacks.,Denial of Service,2 million records,CRITICAL
+Cloud_Entity_80,Oracle Cloud,Oracle Cloud API Gateway with misconfigured authentication allowing unauthorized access.,Authentication,"25,000 records",HIGH
+Cloud_Entity_81,AWS,AWS S3 bucket with no access logging.,Monitoring,10.5 million records,CRITICAL
+Cloud_Entity_82,GCP,GCP Cloud Composer with misconfigured environment variable allowing code injection.,Code Injection,10.5 million records,CRITICAL
+Cloud_Entity_83,Oracle Cloud,Oracle Cloud Compute with no boot volume encryption.,Encryption,Unknown,MEDIUM
+Cloud_Entity_84,AWS,AWS S3 bucket with misconfigured bucket logging exposing access patterns.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_85,AWS,AWS CloudTrail with misconfigured log validation allowing log tampering.,Monitoring,2 million records,CRITICAL
+Cloud_Entity_86,AWS,AWS SNS with misconfigured delivery policy exposing messages.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_87,IBM Cloud,IBM Cloud Databases with no connection pooling.,Resource Control,10.5 million records,CRITICAL
+Cloud_Entity_88,IBM Cloud,IBM Cloud VPC with misconfigured VPN gateway allowing weak encryption.,Encryption,10.5 million records,CRITICAL
+Cloud_Entity_89,Oracle Cloud,Oracle Cloud Database with misconfigured network security group allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_90,Azure,Azure Cosmos DB with misconfigured firewall allowing unauthorized access.,Access Control,2 million records,CRITICAL
+Cloud_Entity_91,Azure,Azure Cognitive Services with misconfigured endpoint allowing data exfiltration.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_92,GCP,GCP Cloud SQL with no point-in-time recovery.,Data Protection,Unknown,MEDIUM
+Cloud_Entity_93,Oracle Cloud,Oracle Cloud Identity with misconfigured API key allowing unauthorized access.,Authentication,"500,000 records",HIGH
+Cloud_Entity_94,Azure,Azure SQL Database with misconfigured firewall rule allowing unauthorized access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_95,IBM Cloud,IBM Cloud VPC with misconfigured flow logs exposing network traffic.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_96,IBM Cloud,IBM Cloud Kubernetes with misconfigured readiness probe allowing resource exhaustion.,Denial of Service,1.2 million records,CRITICAL
+Cloud_Entity_97,Oracle Cloud,Oracle Cloud VCN with misconfigured service gateway allowing data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_98,GCP,GCP Cloud Run with no request timeout.,Resource Control,2 million records,CRITICAL
+Cloud_Entity_99,Azure,Azure Key Vault with no purge protection.,Data Protection,10.5 million records,CRITICAL
+Cloud_Entity_100,IBM Cloud,IBM Cloud VPC with misconfigured floating IP allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_101,AWS,AWS EC2 instance with no IMDSv2 enforcement.,Security Policy,"25,000 records",HIGH
+Cloud_Entity_102,Alibaba Cloud,Alibaba Cloud ECS with misconfigured instance role allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_103,Azure,Azure Stream Analytics with no encryption.,Encryption,"25,000 records",HIGH
+Cloud_Entity_104,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured routing policy allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_105,Oracle Cloud,Oracle Cloud Functions with misconfigured environment variables exposing secrets.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_106,Azure,Azure Function with misconfigured CORS policy allowing data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_107,GCP,GCP Cloud Functions with misconfigured environment variable exposing secrets.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_108,AWS,AWS S3 bucket with misconfigured notification policy allowing unauthorized actions.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_109,AWS,AWS CloudFormation with misconfigured template exposing sensitive parameters.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_110,Alibaba Cloud,Alibaba Cloud ECS with misconfigured snapshot export allowing data leakage.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_111,Alibaba Cloud,Alibaba Cloud ECS with misconfigured snapshot policy allowing data exposure.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_112,IBM Cloud,IBM Cloud Kubernetes with no image security scanning.,Security Policy,10.5 million records,CRITICAL
+Cloud_Entity_113,Azure,Azure Kubernetes with misconfigured pod security context allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_114,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured rate limiting allowing DoS attacks.,Denial of Service,"25,000 records",HIGH
+Cloud_Entity_115,Azure,Azure Machine Learning with misconfigured pipeline allowing code injection.,Code Injection,"500,000 records",HIGH
+Cloud_Entity_116,GCP,GCP Cloud DNS with no logging enabled.,Monitoring,10.5 million records,CRITICAL
+Cloud_Entity_117,AWS,AWS Lambda with no dead-letter queue.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_118,Oracle Cloud,Oracle Cloud VCN with misconfigured route table allowing traffic interception.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_119,IBM Cloud,IBM Cloud Security Group with no egress rules.,Network Security,"500,000 records",HIGH
+Cloud_Entity_120,Oracle Cloud,Oracle Cloud Object Storage with misconfigured versioning exposing deleted objects.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_121,Oracle Cloud,Oracle Cloud Compute with misconfigured security list allowing unauthorized access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_122,Oracle Cloud,Oracle Cloud Compute with misconfigured VNIC attachment allowing traffic interception.,Network Security,"500,000 records",HIGH
+Cloud_Entity_123,Oracle Cloud,Oracle Cloud Identity with misconfigured group membership allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_124,Azure,Azure Cosmos DB with misconfigured role-based access control allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_125,GCP,GCP Cloud SQL with misconfigured user authentication allowing unauthorized access.,Authentication,10.5 million records,CRITICAL
+Cloud_Entity_126,Oracle Cloud,Oracle Cloud Identity with misconfigured federation allowing unauthorized access.,Authentication,"25,000 records",HIGH
+Cloud_Entity_127,AWS,AWS ECS with no logging.,Monitoring,10.5 million records,CRITICAL
+Cloud_Entity_128,IBM Cloud,IBM Cloud Functions with misconfigured trigger allowing unauthorized invocation.,Access Control,2 million records,CRITICAL
+Cloud_Entity_129,AWS,AWS SNS with misconfigured delivery retry policy allowing message loss.,Data Loss,Unknown,MEDIUM
+Cloud_Entity_130,GCP,GCP Cloud Armor with no WAF rules.,Security Policy,2 million records,CRITICAL
+Cloud_Entity_131,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket encryption policy exposing data.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_132,GCP,GCP Cloud Run with misconfigured service account allowing privilege escalation.,Privilege Escalation,"500,000 records",HIGH
+Cloud_Entity_133,Oracle Cloud,Oracle Cloud Object Storage with no encryption.,Encryption,Unknown,MEDIUM
+Cloud_Entity_134,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket logging exposing access patterns.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_135,IBM Cloud,IBM Cloud VPC with misconfigured subnet ACL allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_136,Azure,Azure Data Lake with misconfigured encryption exposing data.,Encryption,"25,000 records",HIGH
+Cloud_Entity_137,AWS,AWS EKS with misconfigured audit logging exposing cluster activity.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_138,Alibaba Cloud,Alibaba Cloud RDS with misconfigured read replica allowing data exposure.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_139,Azure,Azure API Management with misconfigured CORS policy allowing data exfiltration.,Data Exfiltration,"500,000 records",HIGH
+Cloud_Entity_140,Azure,Azure App Service with misconfigured authentication exposing sessions.,Session Management,2 million records,CRITICAL
+Cloud_Entity_141,GCP,GCP Cloud SQL with misconfigured backup retention exposing old data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_142,IBM Cloud,IBM Cloud Functions with misconfigured logging exposing sensitive data.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_143,AWS,AWS CloudFormation with misconfigured stack policy allowing unauthorized updates.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_144,Azure,Azure Virtual Network with misconfigured subnet allowing lateral movement.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_145,GCP,GCP BigQuery with misconfigured query cache allowing data leakage.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_146,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket encryption exposing data.,Encryption,10.5 million records,CRITICAL
+Cloud_Entity_147,AWS,AWS S3 bucket with misconfigured encryption exposing data.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_148,Azure,Azure App Service with misconfigured CORS allowing data exfiltration.,Data Exfiltration,"500,000 records",HIGH
+Cloud_Entity_149,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured SSL policy allowing weak ciphers.,Encryption,2 million records,CRITICAL
+Cloud_Entity_150,GCP,GCP Cloud Run with misconfigured CPU limit allowing resource exhaustion.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_151,GCP,GCP Cloud Storage with misconfigured signed URLs allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_152,IBM Cloud,IBM Cloud Functions with misconfigured logging exposing sensitive data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_153,Oracle Cloud,Oracle Cloud Database with no network access control.,Network Security,"500,000 records",HIGH
+Cloud_Entity_154,Oracle Cloud,Oracle Cloud Object Storage with misconfigured bucket policy allowing data exposure.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_155,Oracle Cloud,Oracle Cloud Object Storage with misconfigured bucket policy allowing data tampering.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_156,IBM Cloud,IBM Cloud Functions with misconfigured trigger allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_157,AWS,AWS ElastiCache with no backup policy.,Data Protection,1.2 million records,CRITICAL
+Cloud_Entity_158,IBM Cloud,IBM Cloud Functions with misconfigured concurrency limit allowing DoS attacks.,Denial of Service,"500,000 records",HIGH
+Cloud_Entity_159,AWS,AWS Lambda function with unvalidated event data leading to code injection.,Code Injection,2 million records,CRITICAL
+Cloud_Entity_160,AWS,AWS S3 bucket with misconfigured notification policy triggering external services.,Data Exfiltration,10.5 million records,CRITICAL
+Cloud_Entity_161,Oracle Cloud,Oracle Cloud Identity with misconfigured authentication policy allowing weak passwords.,Authentication,2 million records,CRITICAL
+Cloud_Entity_162,AWS,AWS EKS with misconfigured node group allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_163,IBM Cloud,IBM Cloud Security Group with no protocol restrictions.,Network Security,10.5 million records,CRITICAL
+Cloud_Entity_164,AWS,AWS Lambda with no tracing enabled.,Monitoring,"500,000 records",HIGH
+Cloud_Entity_165,AWS,AWS API Gateway with misconfigured cache allowing data leakage.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_166,IBM Cloud,IBM Cloud Kubernetes with no pod security policy.,Security Policy,10.5 million records,CRITICAL
+Cloud_Entity_167,Oracle Cloud,Oracle Cloud File Storage with misconfigured mount target allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_168,AWS,AWS CloudTrail with misconfigured S3 bucket access allowing log exposure.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_169,AWS,AWS CloudTrail with disabled logging.,Monitoring,10.5 million records,CRITICAL
+Cloud_Entity_170,GCP,GCP Cloud Spanner with misconfigured database role allowing privilege escalation.,Privilege Escalation,Unknown,MEDIUM
+Cloud_Entity_171,Alibaba Cloud,Alibaba Cloud ECS with misconfigured network interface allowing traffic interception.,Network Security,Unknown,MEDIUM
+Cloud_Entity_172,Azure,Azure Virtual Machine with exposed serial console allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_173,GCP,GCP Cloud Storage with no object versioning.,Data Protection,1.2 million records,CRITICAL
+Cloud_Entity_174,Alibaba Cloud,Alibaba Cloud Function Compute with no logging.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_175,AWS,AWS CodeBuild with misconfigured buildspec allowing code injection.,Code Injection,1.2 million records,CRITICAL
+Cloud_Entity_176,GCP,GCP Cloud Monitoring with no alert policies.,Monitoring,1.2 million records,CRITICAL
+Cloud_Entity_177,Azure,Azure Event Hub with misconfigured SAS token exposing data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_178,GCP,GCP Cloud VPN with weak pre-shared key.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_179,Oracle Cloud,Oracle Cloud File Storage with misconfigured snapshot policy allowing data exposure.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_180,AWS,AWS EKS with misconfigured node group allowing privilege escalation.,Privilege Escalation,2 million records,CRITICAL
+Cloud_Entity_181,GCP,GCP Cloud SQL with misconfigured backup policy exposing data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_182,GCP,GCP Cloud SQL with no backup configuration.,Data Protection,Unknown,MEDIUM
+Cloud_Entity_183,Oracle Cloud,Oracle Cloud Functions with misconfigured environment variables exposing secrets.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_184,AWS,AWS API Gateway with no cache encryption.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_185,Azure,Azure App Service with misconfigured CORS policy allowing data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_186,Azure,Azure App Service with misconfigured authentication allowing session hijacking.,Session Management,2 million records,CRITICAL
+Cloud_Entity_187,IBM Cloud,IBM Cloud Kubernetes with misconfigured pod affinity allowing resource exhaustion.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_188,Alibaba Cloud,Alibaba Cloud OSS with misconfigured lifecycle transition allowing data exposure.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_189,AWS,AWS S3 bucket with misconfigured lifecycle policy exposing archived data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_190,AWS,AWS SNS with misconfigured delivery policy allowing message loss.,Data Loss,2 million records,CRITICAL
+Cloud_Entity_191,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured backend set allowing unauthorized access.,Access Control,"500,000 records",HIGH
+Cloud_Entity_192,AWS,AWS RDS instance with public access enabled.,Network Security,2 million records,CRITICAL
+Cloud_Entity_193,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket encryption policy exposing data.,Encryption,"500,000 records",HIGH
+Cloud_Entity_194,GCP,GCP Cloud Spanner with misconfigured table schema allowing data tampering.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_195,IBM Cloud,IBM Cloud Databases with no auto-scaling limits.,Resource Control,"25,000 records",HIGH
+Cloud_Entity_196,Oracle Cloud,Oracle Cloud Block Volume with no encryption.,Encryption,10.5 million records,CRITICAL
+Cloud_Entity_197,AWS,AWS S3 bucket with misconfigured object lock allowing data tampering.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_198,AWS,AWS API Gateway with misconfigured access logging exposing sensitive data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_199,Oracle Cloud,Oracle Cloud VCN with no route table restrictions.,Network Security,"25,000 records",HIGH
+Cloud_Entity_200,GCP,GCP Cloud Functions with misconfigured IAM policy allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_201,Azure,Azure SQL Database with misconfigured TDE exposing data.,Encryption,"500,000 records",HIGH
+Cloud_Entity_202,Oracle Cloud,Oracle Cloud Compute with misconfigured user data allowing code injection.,Code Injection,"500,000 records",HIGH
+Cloud_Entity_203,GCP,GCP Cloud VPN with misconfigured IKE version allowing weak encryption.,Encryption,2 million records,CRITICAL
+Cloud_Entity_204,Azure,Azure Virtual Network with misconfigured service endpoint allowing data exfiltration.,Data Exfiltration,"25,000 records",HIGH
+Cloud_Entity_205,GCP,GCP Pub/Sub with no message retention policy.,Data Protection,"25,000 records",HIGH
+Cloud_Entity_206,IBM Cloud,IBM Cloud Databases with misconfigured audit logging exposing sensitive data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_207,Alibaba Cloud,Alibaba Cloud RDS with misconfigured audit logging exposing sensitive queries.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_208,Azure,Azure Cosmos DB with misconfigured role definition allowing privilege escalation.,Privilege Escalation,2 million records,CRITICAL
+Cloud_Entity_209,AWS,AWS API Gateway with misconfigured caching exposing sensitive data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_210,AWS,AWS Lambda with misconfigured environment variables exposing secrets.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_211,Alibaba Cloud,Alibaba Cloud ECS with misconfigured auto-scaling policy allowing resource exhaustion.,Denial of Service,10.5 million records,CRITICAL
+Cloud_Entity_212,Oracle Cloud,Oracle Cloud Database with misconfigured listener allowing SQL injection.,Injection,"500,000 records",HIGH
+Cloud_Entity_213,GCP,GCP Cloud Storage with misconfigured bucket policy allowing data exposure.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_214,IBM Cloud,IBM Cloud Kubernetes with misconfigured readiness probe allowing DoS attacks.,Denial of Service,"25,000 records",HIGH
+Cloud_Entity_215,Alibaba Cloud,Alibaba Cloud Function Compute with no access logging.,Monitoring,2 million records,CRITICAL
+Cloud_Entity_216,Azure,Azure Event Hub with misconfigured partition allowing data leakage.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_217,Alibaba Cloud,Alibaba Cloud RDS with no backup encryption.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_218,IBM Cloud,IBM Cloud VPC with misconfigured public gateway allowing traffic interception.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_219,IBM Cloud,IBM Cloud Functions with misconfigured sequence allowing unauthorized invocation.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_220,AWS,AWS CloudFormation with misconfigured stack policy allowing unauthorized updates.,Access Control,"25,000 records",HIGH
+Cloud_Entity_221,Azure,Azure Virtual Network with misconfigured subnet delegation allowing privilege escalation.,Privilege Escalation,Unknown,MEDIUM
+Cloud_Entity_222,IBM Cloud,IBM Cloud Object Storage with misconfigured bucket versioning exposing deleted objects.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_223,AWS,AWS SNS with misconfigured message policy exposing sensitive data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_224,IBM Cloud,IBM Cloud Functions with no concurrency limits.,Resource Control,"500,000 records",HIGH
+Cloud_Entity_225,Azure,Azure Virtual Machine with misconfigured network interface allowing traffic sniffing.,Network Security,Unknown,MEDIUM
+Cloud_Entity_226,IBM Cloud,IBM Cloud VPC with misconfigured endpoint allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_227,Oracle Cloud,Oracle Cloud Compute with outdated OS image.,Patch Management,"500,000 records",HIGH
+Cloud_Entity_228,Azure,Azure Event Hub with no access control.,Access Control,Unknown,MEDIUM
+Cloud_Entity_229,GCP,GCP Cloud Functions with misconfigured retry policy allowing resource exhaustion.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_230,Oracle Cloud,Oracle Cloud Compute with misconfigured instance metadata allowing SSRF.,Server-Side Request Forgery,2 million records,CRITICAL
+Cloud_Entity_231,Azure,Azure Data Lake with no encryption.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_232,Alibaba Cloud,Alibaba Cloud RDS with misconfigured audit logging exposing sensitive queries.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_233,GCP,GCP Cloud Composer with misconfigured environment allowing code injection.,Code Injection,"500,000 records",HIGH
+Cloud_Entity_234,Azure,Azure Virtual Machine with misconfigured boot diagnostics exposing sensitive data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_235,IBM Cloud,IBM Cloud VPC with misconfigured endpoint service allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_236,Azure,Azure Virtual Network with misconfigured DNS settings allowing domain hijacking.,Domain Hijacking,1.2 million records,CRITICAL
+Cloud_Entity_237,AWS,AWS Redshift with misconfigured audit logging exposing query data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_238,Oracle Cloud,Oracle Cloud Database with misconfigured listener exposing data.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_239,GCP,GCP Cloud SQL with misconfigured maintenance window allowing DoS attacks.,Denial of Service,10.5 million records,CRITICAL
+Cloud_Entity_240,Azure,Azure Synapse Analytics with misconfigured pipeline allowing code execution.,Code Injection,Unknown,MEDIUM
+Cloud_Entity_241,Oracle Cloud,Oracle Cloud VCN with misconfigured service gateway allowing lateral movement.,Network Security,2 million records,CRITICAL
+Cloud_Entity_242,GCP,GCP Cloud Monitoring with public dashboard.,Access Control,Unknown,MEDIUM
+Cloud_Entity_243,GCP,GCP Cloud DNS with misconfigured zone transfer allowing data exposure.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_244,IBM Cloud,IBM Cloud Security Advisor disabled.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_245,Azure,Azure Data Lake with misconfigured role assignment allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_246,Azure,Azure Virtual Machine with misconfigured extension allowing privilege escalation.,Privilege Escalation,"500,000 records",HIGH
+Cloud_Entity_247,GCP,GCP Cloud Functions with misconfigured timeout allowing resource exhaustion.,Denial of Service,1.2 million records,CRITICAL
+Cloud_Entity_248,Azure,Azure API Management with no authentication.,API Security,"25,000 records",HIGH
+Cloud_Entity_249,Azure,Azure Function with no CORS policy.,API Security,1.2 million records,CRITICAL
+Cloud_Entity_250,IBM Cloud,IBM Cloud Functions with misconfigured action binding allowing unauthorized invocation.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_251,IBM Cloud,IBM Cloud Kubernetes with misconfigured pod security context allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_252,Oracle Cloud,Oracle Cloud File Storage with misconfigured mount target allowing unauthorized access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_253,Alibaba Cloud,Alibaba Cloud OSS with no access logging.,Monitoring,10.5 million records,CRITICAL
+Cloud_Entity_254,AWS,AWS SNS with misconfigured message filtering exposing sensitive data.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_255,Alibaba Cloud,Alibaba Cloud RDS with misconfigured encryption key allowing data exposure.,Encryption,"500,000 records",HIGH
+Cloud_Entity_256,AWS,AWS ECS with no task execution role restrictions.,IAM Misconfiguration,1.2 million records,CRITICAL
+Cloud_Entity_257,GCP,GCP Cloud Storage with misconfigured uniform bucket-level access exposing data.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_258,AWS,AWS CodeBuild with no logging enabled.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_259,Oracle Cloud,Oracle Cloud Identity with misconfigured compartment policy allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_260,GCP,GCP Cloud SQL with misconfigured user privileges allowing privilege escalation.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_261,IBM Cloud,IBM Cloud VPC with misconfigured load balancer allowing traffic interception.,Network Security,"25,000 records",HIGH
+Cloud_Entity_262,Alibaba Cloud,Alibaba Cloud SLB with misconfigured health check interval allowing DoS attacks.,Denial of Service,Unknown,MEDIUM
+Cloud_Entity_263,Alibaba Cloud,Alibaba Cloud OSS with misconfigured access log exposing request metadata.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_264,Azure,Azure Virtual Network with misconfigured peering allowing lateral movement.,Network Security,Unknown,MEDIUM
+Cloud_Entity_265,GCP,GCP Cloud SQL with misconfigured database flags allowing code execution.,Code Injection,"500,000 records",HIGH
+Cloud_Entity_266,Alibaba Cloud,Alibaba Cloud ECS with misconfigured instance role allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_267,Oracle Cloud,Oracle Cloud File Storage with misconfigured NFS options allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_268,GCP,GCP Cloud Storage with misconfigured bucket notification allowing data exfiltration.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_269,Alibaba Cloud,Alibaba Cloud ECS with misconfigured monitoring exposing instance metrics.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_270,AWS,AWS Lambda with misconfigured logging exposing sensitive data.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_271,IBM Cloud,IBM Cloud Security Group with misconfigured egress rules allowing data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_272,IBM Cloud,IBM Cloud Kubernetes with misconfigured pod disruption budget allowing DoS attacks.,Denial of Service,2 million records,CRITICAL
+Cloud_Entity_273,Azure,Azure Machine Learning with misconfigured endpoint allowing inference attacks.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_274,Alibaba Cloud,Alibaba Cloud ECS with no resource monitoring.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_275,GCP,GCP Dataflow with public pipeline access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_276,GCP,GCP Cloud Storage bucket with legacy ACLs.,Misconfiguration,Unknown,MEDIUM
+Cloud_Entity_277,AWS,AWS KMS with no key rotation enabled.,Security Policy,Unknown,MEDIUM
+Cloud_Entity_278,IBM Cloud,IBM Cloud Functions with misconfigured package binding allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_279,GCP,GCP BigQuery with no CMEK encryption.,Encryption,"500,000 records",HIGH
+Cloud_Entity_280,AWS,AWS ECS with misconfigured container port exposing internal services.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_281,IBM Cloud,IBM Cloud Security Group with misconfigured protocol allowing unauthorized access.,Access Control,Unknown,MEDIUM
+Cloud_Entity_282,AWS,Unencrypted AWS Lambda environment variables leaking API keys.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_283,GCP,GCP BigQuery with misconfigured view access allowing unauthorized queries.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_284,GCP,GCP Cloud Run with misconfigured service account allowing unauthorized access.,Access Control,"500,000 records",HIGH
+Cloud_Entity_285,Oracle Cloud,Oracle Cloud Object Storage with misconfigured bucket policy allowing data tampering.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_286,AWS,AWS ElastiCache with misconfigured access control allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_287,Azure,Azure Data Lake with misconfigured file system access allowing data tampering.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_288,Alibaba Cloud,Alibaba Cloud RDS with misconfigured monitoring exposing database metrics.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_289,Azure,Azure Virtual Machine with misconfigured disk encryption exposing data.,Encryption,1.2 million records,CRITICAL
+Cloud_Entity_290,AWS,AWS Redshift with misconfigured parameter group allowing insecure connections.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_291,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket policy allowing unauthorized access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_292,Alibaba Cloud,Alibaba Cloud ECS with misconfigured instance metadata allowing SSRF attacks.,Server-Side Request Forgery,Unknown,MEDIUM
+Cloud_Entity_293,GCP,GCP Cloud DNS with misconfigured zone transfer exposing data.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_294,GCP,GCP Compute Engine with no shielded VMs.,Security Policy,"25,000 records",HIGH
+Cloud_Entity_295,AWS,AWS SNS with misconfigured subscription endpoint allowing data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_296,IBM Cloud,IBM Cloud Functions with misconfigured trigger policy allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_297,Oracle Cloud,Oracle Cloud Identity with misconfigured MFA policy allowing weak authentication.,Authentication,"500,000 records",HIGH
+Cloud_Entity_298,AWS,AWS S3 bucket with misconfigured replication exposing data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_299,Alibaba Cloud,Alibaba Cloud RDS with misconfigured snapshot policy exposing data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_300,Oracle Cloud,Oracle Cloud VCN with misconfigured security group allowing lateral movement.,Network Security,"500,000 records",HIGH
+Cloud_Entity_301,GCP,GCP Cloud SQL with misconfigured binary log retention exposing data.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_302,Oracle Cloud,Oracle Cloud Compute with no secure boot.,Security Policy,10.5 million records,CRITICAL
+Cloud_Entity_303,GCP,GCP Cloud Functions with misconfigured trigger policy allowing unauthorized invocation.,Access Control,"500,000 records",HIGH
+Cloud_Entity_304,Alibaba Cloud,Alibaba Cloud RDS with misconfigured read-only user allowing data tampering.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_305,IBM Cloud,IBM Cloud Functions with misconfigured trigger policy allowing unauthorized invocation.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_306,AWS,AWS EKS with misconfigured pod security policy allowing privilege escalation.,Privilege Escalation,10.5 million records,CRITICAL
+Cloud_Entity_307,IBM Cloud,IBM Cloud Security Group with open ports.,Network Security,2 million records,CRITICAL
+Cloud_Entity_308,Alibaba Cloud,Alibaba Cloud SLB with HTTP instead of HTTPS.,Encryption,"25,000 records",HIGH
+Cloud_Entity_309,IBM Cloud,IBM Cloud Functions with misconfigured concurrency allowing DoS attacks.,Denial of Service,"500,000 records",HIGH
+Cloud_Entity_310,Alibaba Cloud,Alibaba Cloud OSS with no access control list.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_311,GCP,GCP Pub/Sub with overly permissive IAM bindings.,IAM Misconfiguration,1.2 million records,CRITICAL
+Cloud_Entity_312,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured backend health check allowing DoS attacks.,Denial of Service,10.5 million records,CRITICAL
+Cloud_Entity_313,IBM Cloud,IBM Cloud Security Group with misconfigured protocol allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_314,Oracle Cloud,Oracle Cloud Database with no connection encryption.,Encryption,"25,000 records",HIGH
+Cloud_Entity_315,IBM Cloud,IBM Cloud Kubernetes with misconfigured service account token allowing cluster compromise.,Privilege Escalation,"25,000 records",HIGH
+Cloud_Entity_316,GCP,GCP Cloud VPN with misconfigured encryption allowing weak ciphers.,Encryption,"500,000 records",HIGH
+Cloud_Entity_317,GCP,GCP Cloud SQL with misconfigured backup configuration exposing data.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_318,Alibaba Cloud,Alibaba Cloud OSS with misconfigured CORS allowing data exfiltration.,Data Exfiltration,Unknown,MEDIUM
+Cloud_Entity_319,GCP,GCP Cloud Armor with misconfigured rate limiting allowing DoS attacks.,Denial of Service,2 million records,CRITICAL
+Cloud_Entity_320,Alibaba Cloud,Alibaba Cloud ECS with misconfigured user data allowing code injection.,Code Injection,1.2 million records,CRITICAL
+Cloud_Entity_321,Oracle Cloud,Oracle Cloud Database with misconfigured backup retention exposing old data.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_322,Oracle Cloud,Oracle Cloud Identity with misconfigured password policy allowing weak credentials.,Authentication,2 million records,CRITICAL
+Cloud_Entity_323,Oracle Cloud,Oracle Cloud Database with misconfigured audit policy allowing undetected access.,Monitoring,"500,000 records",HIGH
+Cloud_Entity_324,Azure,Azure Virtual Machine with misconfigured public IP allowing unauthorized access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_325,AWS,AWS S3 bucket with misconfigured event trigger allowing unauthorized invocation.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_326,AWS,AWS SNS with misconfigured topic policy allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_327,Azure,Azure Stream Analytics with no access control.,Access Control,"25,000 records",HIGH
+Cloud_Entity_328,AWS,AWS S3 bucket with misconfigured event trigger allowing unauthorized actions.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_329,Azure,Azure Synapse Analytics with no encryption.,Encryption,"500,000 records",HIGH
+Cloud_Entity_330,Alibaba Cloud,Alibaba Cloud SLB with misconfigured health check allowing DoS attacks.,Denial of Service,1.2 million records,CRITICAL
+Cloud_Entity_331,GCP,GCP Cloud Function with unauthenticated HTTP trigger.,IAM Misconfiguration,1.2 million records,CRITICAL
+Cloud_Entity_332,AWS,AWS EC2 instance with exposed SSH port and weak key.,Access Control,Unknown,MEDIUM
+Cloud_Entity_333,Alibaba Cloud,Alibaba Cloud SLB with insecure session handling leading to session hijacking.,Session Management,"25,000 records",HIGH
+Cloud_Entity_334,AWS,AWS Lambda with misconfigured function policy allowing unauthorized invocation.,Access Control,"25,000 records",HIGH
+Cloud_Entity_335,Oracle Cloud,Oracle Cloud File Storage with misconfigured snapshot allowing data exposure.,Data Exposure,10.5 million records,CRITICAL
+Cloud_Entity_336,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured backend policy allowing unauthorized access.,Access Control,10.5 million records,CRITICAL
+Cloud_Entity_337,Oracle Cloud,Oracle Cloud Load Balancer with no rate limiting.,API Security,2 million records,CRITICAL
+Cloud_Entity_338,Azure,Azure Virtual Network with misconfigured service endpoint allowing data exfiltration.,Data Exfiltration,2 million records,CRITICAL
+Cloud_Entity_339,Alibaba Cloud,Alibaba RAM user with full access policy.,IAM Misconfiguration,2 million records,CRITICAL
+Cloud_Entity_340,Oracle Cloud,Oracle Cloud Compute with misconfigured boot volume exposing data.,Data Exposure,2 million records,CRITICAL
+Cloud_Entity_341,Azure,Azure Databricks with misconfigured workspace allowing data exfiltration.,Data Exfiltration,2 million records,CRITICAL
+Cloud_Entity_342,IBM Cloud,IBM Cloud VPC with misconfigured subnet routing allowing traffic interception.,Network Security,"25,000 records",HIGH
+Cloud_Entity_343,GCP,GCP Cloud Run with misconfigured CPU allocation allowing resource exhaustion.,Denial of Service,1.2 million records,CRITICAL
+Cloud_Entity_344,IBM Cloud,IBM Cloud Functions with misconfigured timeout allowing resource exhaustion.,Denial of Service,"500,000 records",HIGH
+Cloud_Entity_345,Alibaba Cloud,Alibaba Cloud ECS with misconfigured auto-scaling trigger allowing DoS attacks.,Denial of Service,"500,000 records",HIGH
+Cloud_Entity_346,GCP,GCP Cloud Monitoring with misconfigured notification channel exposing alerts.,Data Exposure,1.2 million records,CRITICAL
+Cloud_Entity_347,Alibaba Cloud,Alibaba Cloud ECS with misconfigured user data allowing code injection.,Code Injection,1.2 million records,CRITICAL
+Cloud_Entity_348,Azure,Azure Stream Analytics with misconfigured output sink allowing data exfiltration.,Data Exfiltration,10.5 million records,CRITICAL
+Cloud_Entity_349,GCP,GCP Cloud Storage with misconfigured CORS allowing cross-origin data exfiltration.,Data Exfiltration,1.2 million records,CRITICAL
+Cloud_Entity_350,GCP,GCP Cloud Functions with no environment variable encryption.,Encryption,10.5 million records,CRITICAL
+Cloud_Entity_351,Azure,Azure Kubernetes with no log analytics.,Monitoring,"25,000 records",HIGH
+Cloud_Entity_352,Oracle Cloud,Oracle Cloud Database with public endpoint.,Network Security,2 million records,CRITICAL
+Cloud_Entity_353,AWS,AWS RDS with misconfigured parameter group allowing insecure connections.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_354,AWS,AWS SNS with misconfigured topic policy allowing unauthorized access.,Access Control,2 million records,CRITICAL
+Cloud_Entity_355,Azure,Azure Data Lake with public access.,Access Control,1.2 million records,CRITICAL
+Cloud_Entity_356,AWS,AWS S3 bucket with misconfigured event notifications exposing data to external services.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_357,GCP,GCP Cloud Storage with no uniform bucket-level access.,Access Control,"500,000 records",HIGH
+Cloud_Entity_358,GCP,GCP Cloud Storage with misconfigured bucket ACL allowing data tampering.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_359,Alibaba Cloud,Alibaba Cloud ECS with no security group rules.,Network Security,Unknown,MEDIUM
+Cloud_Entity_360,IBM Cloud,IBM Cloud VPC with misconfigured security group allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_361,Azure,Azure Virtual Network with no network security group.,Network Security,1.2 million records,CRITICAL
+Cloud_Entity_362,IBM Cloud,IBM Cloud VPC with no ACL rules.,Network Security,Unknown,MEDIUM
+Cloud_Entity_363,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket tag allowing unauthorized access.,Access Control,"500,000 records",HIGH
+Cloud_Entity_364,Azure,Azure Virtual Network with misconfigured peering allowing lateral movement.,Network Security,2 million records,CRITICAL
+Cloud_Entity_365,Alibaba Cloud,Alibaba Cloud OSS with misconfigured access policy allowing data tampering.,Data Exposure,"25,000 records",HIGH
+Cloud_Entity_366,IBM Cloud,IBM Cloud Kubernetes with exposed dashboard.,Access Control,Unknown,MEDIUM
+Cloud_Entity_367,Alibaba Cloud,Alibaba Cloud OSS with misconfigured bucket access log exposing request metadata.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_368,IBM Cloud,IBM Cloud Kubernetes with misconfigured pod security policy allowing privilege escalation.,Privilege Escalation,2 million records,CRITICAL
+Cloud_Entity_369,Oracle Cloud,Oracle Cloud Database with misconfigured backup retention exposing old data.,Data Exposure,"500,000 records",HIGH
+Cloud_Entity_370,Oracle Cloud,Oracle Cloud Compute with misconfigured metadata service allowing SSRF attacks.,Server-Side Request Forgery,Unknown,MEDIUM
+Cloud_Entity_371,Oracle Cloud,Oracle Cloud Load Balancer with misconfigured session persistence exposing sessions.,Session Management,Unknown,MEDIUM
+Cloud_Entity_372,Oracle Cloud,Oracle Cloud VCN with misconfigured route table allowing traffic interception.,Network Security,Unknown,MEDIUM
+Cloud_Entity_373,IBM Cloud,IBM Cloud Databases with misconfigured failover allowing unauthorized access.,Access Control,"25,000 records",HIGH
+Cloud_Entity_374,Azure,Azure Cognitive Services with misconfigured logging exposing sensitive data.,Data Exposure,Unknown,MEDIUM
+Cloud_Entity_375,AWS,AWS EKS with misconfigured pod security policy allowing container breakout.,Privilege Escalation,1.2 million records,CRITICAL
+Cloud_Entity_376,Azure,Azure Cosmos DB with misconfigured role definition allowing privilege escalation.,Privilege Escalation,2 million records,CRITICAL
+Cloud_Entity_377,Azure,Azure API Management with exposed management API allowing configuration tampering.,API Security,"25,000 records",HIGH
